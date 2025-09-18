@@ -8,21 +8,30 @@ h1,h2,h3,h4,h5,h6 {
 }
 .purchase {
     background-color: lightblue;
-    width: 150px;
+    width: 90%;
+    height: 90%;
+    border: 3px solid gray;
+    padding: 5px;
+    margin: 10px;
+}
+.purchasehome{
+    background-color: lightblue;
+    width: 30%;
     border: 3px solid gray;
     padding: 5px;
     margin: 10px;
 }
 .buybutton {
     background-color: lightgreen;
-    width: 150px;
+    width: 100%;
+    height: 50px;
 }
 .textbox {
-    width: 450px;
-    height: 250px;
+    width: 60%;
+    height: 600px;
 }
 .submit {
-    width:460px;
+    width:60%;
     height: 50px;
     color: white;
     background-color: lightslategray;
@@ -34,10 +43,10 @@ h1,h2,h3,h4,h5,h6 {
     background-color: lightgreen;
 }
 nav > ul > li > a {
-    background-color: black;
+    background-color: lightslategray;
     color: white;
     text-decoration: none;
-    width: 30%;
+    font-size: x-large;
 }
 nav > ul > li {
     margin: 1;
@@ -51,4 +60,26 @@ a:hover {
 .foot {
     background-color: lightsalmon;
     color: lightblue;
+}
+.thatimage {
+    width: auto;
+}
+section > ul > li {
+    margin: 1;
+    list-style-type: none;
+    display: inline-block;
+}
+table {
+    width: 90%;
+}
+.logo {
+    user-select: none;
+    background-color: white;
+}
+.formfile {
+    font-size: larger;
+    font-style: oblique;
+}
+.formfile > a {
+    background-color: lime;
 }
