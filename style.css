@@ -7,24 +7,22 @@ h1,h2,h3,h4,h5,h6 {
     color: black;
 }
 .purchase {
+    display: flex;
     background-color: lightblue;
     width: 90%;
-    height: 90%;
+    height: 100%;
     border: 3px solid gray;
-    padding: 5px;
+    padding: 1rem;
     margin: 10px;
-}
-.purchasehome{
-    background-color: lightblue;
-    width: 30%;
-    border: 3px solid gray;
-    padding: 5px;
-    margin: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .buybutton {
     background-color: lightgreen;
     width: 100%;
     height: 50px;
+    margin-top: auto;
 }
 .textbox {
     width: 60%;
@@ -71,10 +69,11 @@ section > ul > li {
 }
 table {
     width: 90%;
+    height: 30%;
 }
 .logo {
     user-select: none;
-    background-color: white;
+    background-color: transparent;
 }
 .formfile {
     font-size: larger;
@@ -82,4 +81,21 @@ table {
 }
 .formfile > a {
     background-color: lime;
+}
+.seeall {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.seeall:hover {
+    background-color: yellow;
+}
+.formfile > a:hover {
+    background-color: yellow;
+}
+.buybutton:hover {
+    background-color: yellow;
+}
+.boutton:hover {
+    background-color: yellow;
 }
