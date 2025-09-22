@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
     box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 .buybutton {
     background-color: lightgreen;
@@ -58,12 +59,16 @@ a:hover {
 .foot {
     background-color: lightsalmon;
     color: lightblue;
+    font-size: large;
 }
 .thatimage {
     width: auto;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 section > ul > li {
-    margin: 1;
+    margin: 2;
     list-style-type: none;
     display: inline-block;
 }
@@ -83,12 +88,14 @@ table {
     background-color: lime;
 }
 .seeall {
-    width: 100%;
+    width: 90%;
     height: 50px;
-    background-color: red;
+    background-color: limegreen;
+    color: white;
 }
 .seeall:hover {
     background-color: yellow;
+    color: dodgerblue;
 }
 .formfile > a:hover {
     background-color: yellow;
@@ -96,6 +103,19 @@ table {
 .buybutton:hover {
     background-color: yellow;
 }
+.boutton {
+    background-color: white; 
+    width: 40%; 
+    height: 35px;
+}
 .boutton:hover {
     background-color: yellow;
+    color: dodgerblue;
+}
+.aboutus {
+    background-image: url(images/nicenature-notthehorse.webp); 
+    padding: 13%; 
+    margin: auto;
+    font-size: larger; 
+    text-align: center;
 }
